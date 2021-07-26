@@ -68,7 +68,8 @@ from aqt import mw
 from aqt.utils import showInfo
 from anki.hooks import wrap
 from anki.lang import _
-from anki.schedv2 import Scheduler
+from anki.scheduler.v2 import Scheduler as Scheduler2
+from anki.scheduler.v3 import Scheduler as Scheduler3
 
 addon_path = dirname(__file__)
 
@@ -563,7 +564,9 @@ Overview._table = overview_table
 # replace _is_finished method
 # this will likely break in a future Anki update
 try:
-  Scheduler._og_is_finished = Scheduler._is_finished
-  Scheduler._is_finished = _is_finished
+    Scheduler2._og_is_finished = Scheduler2._is_finished
+    Scheduler2._is_finished = _is_finished
+    Scheduler3._og_is_finished = Scheduler3._is_finished
+    Scheduler3._is_finished = _is_finished
 except:
     pass
