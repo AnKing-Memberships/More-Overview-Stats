@@ -1,60 +1,6 @@
 # -*- coding: utf-8 -*-
-
-"""
-More Overview Stats 2.1
-=====================
-Statistics add-on for Anki 2.1 -- based on "More Overview Stats 2" by
-Martin Zuther (http://www.mzuther.de/) which is based on
-"More Overview Stats" by Calumks <calumks@gmail.com>
-
-Copyright (c) 2020 Kazuwuqt <kazuwuqt@yahoo.com>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Thank you for using free software!
-
-HISTORY
-=======
-version 2.1.2a
-
-# Fixed not reading the value of "Show table for finished decks" in the config
-# Fixed stats not showing on finished decks in Anki 2.1.39
-
-version 2.1.2
-
-# Changed the default number colors to be easier to read when using dark mode
-# Added the ability to change the number colors through Anki's inbuilt config
-# Switched to Anki's config handling instead of directly reading the config.json
-# Imported _ from anki.lang to fix deprecation warning
-
-version 2.1.1a
-
-# Fixed an error that occured when all cards in a deck where suspended
-
-version 2.1.1:
-
-# Now shows a new column with percentages ignoring all suspended cards
-# Now also shows the date and the number of days left until the deck is done
-
-version 2.1:
-
-* Now supports Anki's current stable release version 2.1.4
-* Now also displays when you will have learned all unlearned words in the
-  deck according to the deck's "New cards/day" option
-* Added config.json in the add-on's folder, replacing old json config
-
-"""
+# Copyright: 2020 Kazuwuqt, 2021 Anki Palace
+# License: GNU General Public License version 3
 
 import json
 import os
