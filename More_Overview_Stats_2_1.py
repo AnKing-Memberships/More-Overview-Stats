@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright: 2020 Kazuwuqt, 2021 Anki Palace
+# Copyright: 2020 Kazuwuqt, 2021 The AnKing
 # License: GNU General Public License version 3
 
 import json

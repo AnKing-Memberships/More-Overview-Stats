@@ -14,7 +14,7 @@ Copyright (c) 2020 Kazuwuqt <kazuwuqt@yahoo.com>
 
 Modifications for Anki 2.1.45+:
 
-Copyright (c) 2021 Anki Palace
+Copyright (c) 2021 The AnKing
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
